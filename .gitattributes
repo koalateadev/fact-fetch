@@ -1,0 +1,4 @@
+fact_fetch/analysis/resources/* !text !filter !merge !diff
+*submissions.json !text !filter !merge !diff
+*submissions.json filter=lfs diff=lfs merge=lfs -text
+*submissions filter=lfs diff=lfs merge=lfs -text

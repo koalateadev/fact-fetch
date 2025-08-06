@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Plant-based and cell-based approaches to meat production",
+    "url": "https://www.nature.com/articles/s41467-020-20061-y",
+    "description": "Detailed analysis of benefits and challenges of plant\u2011based and cellular meat alternatives\u2014including efficiency, sensory characteristics, and sustainability implications.",
+    "filename": "plant_based_and_cultivated_meat_benefits_and_barriers.pdf"
+  },
+  {
+    "title": "Sustainability of Alternatives to Animal Protein Sources, a \u2026",
+    "url": "https://www.mdpi.com/2071-1050/16/17/7701",
+    "description": "Review focused on sustainable food production and diets, evaluating alternative protein sources in the context of intensive animal agriculture impacts.",
+    "filename": "assessing_sustainability_of_animal_protein_alternatives.pdf"
+  },
+  {
+    "title": "The environmental sustainability of meat\u2011based versus \u2026 pet food",
+    "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2025.1569372/full",
+    "description": "A review of life\u2011cycle assessments comparing pet\u2011food types\u2014meat\u2011based vs vegan\u2014and mitigation strategies to reduce environmental impacts.",
+    "filename": "environmental_impacts_of_pet_food_vegan_vs_meat_based.pdf"
+  },
+  {
+    "title": "Considering how farm animal welfare concerns may guide consumers",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0195666321006930",
+    "description": "Examines how consumer behavior can be influenced toward more sustainable and animal\u2011friendly food systems.",
+    "filename": "consumer_behavior_and_farm_animal_welfare.pdf"
+  },
+  {
+    "title": "Evidence: plant-based animal product alternatives are more sustainable",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2666833522000612",
+    "description": "Data showing plant\u2011based alternatives (PB\u2011APAs) consistently outperform animal products in GHG, land and water footprint.",
+    "filename": "plant_based_alternatives_environmental_evidence_review.pdf"
+  },
+  {
+    "title": "Consumers\u2019 Attitudes towards Animal Suffering",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9741386/",
+    "description": "Systematic review of 90 studies on consumers\u2019 awareness of animal pain and suffering in animal agriculture.",
+    "filename": "how_consumers_feel_about_animal_suffering.pdf"
+  },
+  {
+    "title": "The End of Factory Farming",
+    "url": "https://journals.library.columbia.edu/index.php/bioethics/article/view/8696",
+    "description": "Bioethical analysis of phasing out industrial factory farms (CAFOs), arguing an overhaul of intensive farming is overdue.",
+    "filename": "bioethical_case_against_factory_farming.pdf"
+  },
+  {
+    "title": "Plant and insect proteins support optimal bone growth\u2026",
+    "url": "https://arxiv.org/abs/2407.21087",
+    "description": "Pre\u2011clinical rat study evaluating growth and microbiome effects of diets based on plant and insect proteins versus dairy casein.",
+    "filename": "bone_health_and_microbiome_effects_of_alternative_proteins.pdf"
+  },
+  {
+    "title": "Sustainability benefits of transitioning from current diets to plant\u2011based diets",
+    "url": "https://www.nature.com/articles/s41467-024-45328-6",
+    "description": "Quantifies reductions in GHG (30\u201352\u202f%), land use (20\u201345\u202f%) and freshwater use (14\u201327\u202f%) from plant\u2011based diet adoption.",
+    "filename": "quantifying_sustainability_of_plant_based_diets.pdf"
+  },
+  {
+    "title": "Sustainability of plant\u2011based diets: back to the future",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0002916523048992",
+    "description": "Classic review on why plant\u2011based diets are more resource\u2011efficient and environmentally sustainable than animal\u2011product\u2011rich diets.",
+    "filename": "why_plant_based_diets_are_environmentally_superior.pdf"
+  },
+  {
+    "title": "Perceived motivators and barriers to consuming a plant\u2011based diet",
+    "url": "https://bmcnutr.biomedcentral.com/articles/10.1186/s40795-025-01100-7",
+    "description": "2025 qualitative study exploring facilitators (affordable access, support) and barriers (lack of education, availability, skills) in diet transition.",
+    "filename": "what_helps_and_hinders_plant_based_diet_adoption.pdf"
+  },
+  {
+    "title": "Barriers to Adopting a Plant\u2011Based Diet in High\u2011Income Countries",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38542734/",
+    "description": "Systematic review identifying 40 barriers in 11 thematic groups: financial, social norms, health concerns, convenience, enjoyment of meat, etc.",
+    "filename": "barriers_to_plant_based_eating_in_wealthy_nations.pdf"
+  },
+  {
+    "title": "Adolescents\u2019 willingness to adopt a more plant\u2011based diet",
+    "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2021.688131/full",
+    "description": "Interview-based study showing low awareness, perceived poor taste, and lack of cooking skills limit adoption among teenagers.",
+    "filename": "teens_and_challenges_of_plant_based_diets.pdf"
+  },
+  {
+    "title": "Plant\u2011based and sustainable diet: A systematic review",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/obr.13901",
+    "description": "2025 systematic review linking sustainable diet frameworks with environmental, dietary quality and public health outcomes.",
+    "filename": "systematic_review_benefits_of_sustainable_diets.pdf"
+  },
+  {
+    "title": "The Future of Plant\u2011Based Diets: Aligning Healthy and Sustainable Eating",
+    "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-publhealth-060722-032021",
+    "description": "Expert review (2024) on integrated definitions of sustainable diets and the policy levers to advance them.",
+    "filename": "aligning_health_and_sustainability_in_future_diets.pdf"
+  },
+  {
+    "title": "Meat\u2011Free Day Reduces GHG Emissions but Poses Adherence Challenges",
+    "url": "https://arxiv.org/abs/2504.02899",
+    "description": "Field experiment showing weekly Meat\u2011Free Days cut emissions by ~53\u202f%, improve fiber and cholesterol, but adherence drops off after treated days.",
+    "filename": "weekly_meat_free_days_impact_and_adherence_issues.pdf"
+  }
+]
