@@ -1,10 +1,7 @@
-import praw
-import os
-from datetime import datetime
-from dotenv import load_dotenv
 import logging
+from datetime import datetime
 
-from reddit_client import get_reddit_client
+from fact_fetch.bot.reddit_client import get_reddit_client
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

@@ -1,9 +1,9 @@
-from reddit_client import get_reddit_client
-from reddit_observer import observe_subreddit
-from openai_client import get_openai_client
-from openai_query import query
-from reddit_bot import RedditBot
-from text_normalizer import RedditTextNormalizer
+from fact_fetch.bot.reddit_client import get_reddit_client
+from fact_fetch.bot.reddit_observer import observe_subreddit
+from fact_fetch.bot.openai_client import get_openai_client
+from fact_fetch.bot.openai_query import query
+from fact_fetch.bot.reddit_bot import RedditBot
+from fact_fetch.utils.text_normalizer import RedditTextNormalizer
 
 
 def main():

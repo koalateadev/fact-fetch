@@ -1,6 +1,6 @@
 import praw
 
-from reddit_client import get_reddit_client
+from fact_fetch.bot.reddit_client import get_reddit_client
 
 
 def observe_subreddit(reddit: praw.Reddit, subreddit_name: str):

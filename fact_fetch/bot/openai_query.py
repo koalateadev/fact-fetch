@@ -2,7 +2,7 @@ import json
 
 from openai import OpenAI
 
-from openai_client import get_openai_client
+from fact_fetch.bot.openai_client import get_openai_client
 
 
 # noinspection PyTypeChecker
@@ -41,4 +41,5 @@ if __name__ == "__main__":
     client = get_openai_client()
     message = "Vegans cant get necessary nutrients"
 
-    query(client, message)
+    result = query(client, message)
+    print(result)
