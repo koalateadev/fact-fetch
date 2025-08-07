@@ -5,13 +5,6 @@ from bs4 import BeautifulSoup
 import emoji
 
 
-def valid_submission(text) -> bool:
-    if text is not None and len(text) > 0:
-        return True
-    else:
-        return False
-
-
 class RedditTextNormalizer:
     def __init__(self):
         # Common Reddit-specific patterns

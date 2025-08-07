@@ -1,8 +1,12 @@
+import json
+
 from openai import OpenAI
+
+from openai_client import get_openai_client
 
 
 # noinspection PyTypeChecker
-def query(client: OpenAI, text: str) -> str:
+def query(client: OpenAI, text: str):
     response = client.responses.create(
         input=[
             {"role": "system", "content":
@@ -23,9 +27,18 @@ def query(client: OpenAI, text: str) -> str:
         temperature=0,
         tools=[{
             "type": "file_search",
-            "vector_store_ids": ["vs_6875d5e70b9881919c06d7e078279292"],
+            "vector_store_ids": ["vs_6893d8d854208191b38588df803cd8e9"],
             "max_num_results": 1,
         }],
         tool_choice="auto",
         text={"format": {"type": "json_object"}},
     )
+
+    return json.loads(response.output_text)
+
+
+if __name__ == "__main__":
+    client = get_openai_client()
+    message = "Vegans cant get necessary nutrients"
+
+    query(client, message)

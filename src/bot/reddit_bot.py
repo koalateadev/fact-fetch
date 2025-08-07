@@ -19,6 +19,15 @@ class RedditBot:
             logger.error(f"Failed to initialize Reddit instance: {str(e)}")
             raise
 
+    def submit_response(self, submission_id: str, response: str):
+        try:
+            submission = self.reddit.submission(submission_id)
+            submission.reply(response)
+            logger.info(f"Successfully replied to post: {submission.url}")
+        except Exception as e:
+            logger.error(f"Failed to submit response: {str(e)}")
+            raise
+
     def submit_draft(self, subreddit_name: str, title: str, content: str):
         try:
             subreddit = self.reddit.subreddit(subreddit_name)
