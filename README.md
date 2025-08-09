@@ -26,27 +26,6 @@ The bot uses a curated collection of scientific papers covering:
 - Barriers to plant-based diet adoption
 - Consumer behavior and attitudes
 
-## Project Structure
-
-```
-fact_fetch/
-├── bot/                          # Main bot functionality
-│   ├── main.py                   # Entry point for the bot
-│   ├── reddit_bot.py            # Reddit interaction logic
-│   ├── reddit_client.py         # Reddit API client
-│   ├── reddit_observer.py       # Subreddit monitoring
-│   ├── openai_client.py         # OpenAI API client
-│   ├── openai_query.py          # AI fact-checking logic
-│   └── resources/               # Research papers and metadata
-│       ├── files/               # PDF research papers
-│       └── resources.json       # Paper metadata and descriptions
-├── analysis/                     # Data analysis tools
-│   └── resources/               # Analysis data files
-├── utils/                       # Utility functions
-│   └── text_normalizer.py       # Text cleaning and normalization
-└── requirements.txt             # Python dependencies
-```
-
 ## Prerequisites
 
 - Python 3.8+
@@ -161,7 +140,6 @@ The bot has access to 15+ peer-reviewed papers covering:
 - The bot is designed to provide evidence-based information, not to promote any specific agenda
 - All responses are based on peer-reviewed scientific research
 - The bot respects Reddit's terms of service and community guidelines
-- Users can disable or block the bot if desired
 
 ## Limitations
 
@@ -169,15 +147,3 @@ The bot has access to 15+ peer-reviewed papers covering:
 - Dependent on Reddit and OpenAI API availability
 - May not catch all forms of misinformation
 - Responses are limited to topics covered in the research database
-
-## License
-
-[Add your license information here]
-
-## Support
-
-For issues, questions, or contributions, please open an issue on the repository.
-
-## Disclaimer
-
-This bot is for educational and informational purposes. While it uses scientific research, users should always verify information independently and consult with qualified professionals for health and dietary advice.
